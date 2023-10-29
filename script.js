@@ -19,13 +19,8 @@ const number = '0123456789';
 const special = '!@#$%^&*()-_';
 
 function validate() {
-    commonclass.forEach(e => {
-        reverse_fontawesome(e);
-
-    });
-    paragraph.forEach(e => {
-        e.style.color = 'white';
-    })
+    commonclass.forEach(e => reverse_fontawesome(e));
+    paragraph.forEach(e => e.style.color = 'white');
     let pw = user_password.value;
     let pwarray = pw.split('');
     if (pwarray.length >= 8) {
