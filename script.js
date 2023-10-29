@@ -22,30 +22,26 @@ function validate() {
     commonclass.forEach(e => reverse_fontawesome(e));
     paragraph.forEach(e => e.style.color = 'white');
     let pw = user_password.value;
-    let pwarray = pw.split('');
-    if (pwarray.length >= 8) {
+    if (pw.length >= 8) {
         length_tick.style.color = '#54ff7f';
         change_fontawesome(fontawesome_5);
     }
-    console.log(pwarray);
-    pwarray.forEach(element => {
-        if ((/[a-z]/g).test(element)) {
+        if ((/[a-z]/).test(pw)) {
             lc_tick.style.color = '#54ff7f';
             change_fontawesome(fontawesome_1);
         }
-        else if ((/[A-Z]/g).test(element)) {
+        if ((/[A-Z]/).test(pw)) {
             uc_tick.style.color = "#54ff7f";
             change_fontawesome(fontawesome_2);
         }
-        else if ((/[0-9]/g).test(element)) {
+        if ((/[0-9]/).test(pw)) {
             num_tick.style.color = '#54ff7f';
             change_fontawesome(fontawesome_3);
         }
-        else if ((/[!@#$%^&*()_-]/g).test(element)) {
+        if ((/[!@#$%^&*()_-]/).test(pw)) {
             spc_tick.style.color = '#54ff7f';
             change_fontawesome(fontawesome_4);
         }
-    });
 }
 
 function change_fontawesome(e) {
