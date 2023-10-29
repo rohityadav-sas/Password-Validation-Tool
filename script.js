@@ -18,10 +18,9 @@ const upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const number = '0123456789';
 const special = '!@#$%^&*()-_';
 
-function validate() {
+function validate(pw) {
     commonclass.forEach(e => reverse_fontawesome(e));
     paragraph.forEach(e => e.style.color = 'white');
-    let pw = user_password.value;
     if (pw.length >= 8) {
         length_tick.style.color = '#54ff7f';
         change_fontawesome(fontawesome_5);
