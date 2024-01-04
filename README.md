@@ -16,7 +16,7 @@ This is a simple password validation tool created by Rohit. The tool provides re
 ## Usage
 
 1. Clone the repository:
-   git clone https://github.com/your-username/password-validation-tool.git
+   git clone https://github.com/rohityadav-sas/Password-Validation-Tool
 
 2. Open the index.html file in your web browser.
 
