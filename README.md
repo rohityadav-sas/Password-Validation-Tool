@@ -16,11 +16,12 @@ This is a simple password validation tool created by Rohit. The tool provides re
 ## Usage
 
 1. Clone the repository:
+   ```bash
    git clone https://github.com/rohityadav-sas/Password-Validation-Tool
 
-2. Open the index.html file in your web browser.
+3. Open the index.html file in your web browser.
 
-3. Enter a password in the input field, and the tool will provide feedback based on the mentioned criteria.
+4. Enter a password in the input field, and the tool will provide feedback based on the mentioned criteria.
 
 ## Technologies Used
 1. HTML
