@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Validation Tool</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="./assets/lock-solid.svg" type="image/svg+xml">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="parent">
+    <h1>Password Validation Tool By Rohit<sup>&copy;</sup></h1>
+    <div class="user_input_area">
+      <input type="text" placeholder="Password" id="user_password" onkeyup="validate(this.value)">
+      <i id="eye" class="fa-regular fa-eye"></i>
+    </div>
+    <div class="validate-box">
+      <div>
+        <i id="fontawesome_1" class="fa-regular fa-circle-dot commonclass"></i>
+        <p id="lc_tick">At least one lowercase character</p>
+      </div>
+      <div>
+        <i id="fontawesome_2" class="fa-regular fa-circle-dot commonclass"></i>
+        <p id="uc_tick">At least one uppercase character</p>
+      </div>
+      <div>
+        <i id="fontawesome_3" class="fa-regular fa-circle-dot commonclass"></i>
+        <p id="num_tick">At least one number</p>
+      </div>
+      <div>
+        <i id="fontawesome_4" class="fa-regular fa-circle-dot commonclass"></i>
+        <p id="spc_tick">At least one special character</p>
+      </div>
+      <div>
+        <i id="fontawesome_5" class="fa-regular fa-circle-dot commonclass"></i>
+        <p id="length_tick">At least 8 characters</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://kit.fontawesome.com/8e5e768940.js" crossorigin="anonymous"></script>
+
+</html>
