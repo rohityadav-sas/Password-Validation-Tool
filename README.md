@@ -6,6 +6,7 @@
 - [Features](#features)
 - [Usage](#usage)
 - [License](#license)
+- [Contributing](#contributing)
 
 ## Preview
 ![preview.png](./assets/preview.png?raw=true)
