@@ -29,9 +29,7 @@
    git clone https://github.com/rohityadav-sas/Password-Validation-Tool
    ```
 
-3. Open the index.html file in your web browser.
-
-4. Enter a password in the input field, and the tool will provide feedback based on the mentioned criteria.
+2. Open the ```index.html``` file in your web browser.
 
 ## License
 
